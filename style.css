@@ -16,14 +16,28 @@ body{
     sans-serif;
     margin: 0px;
     font-weight: 300;
+    line-height: 1.4;
     
 }
-.navigation_container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
+/*Navigation*/
+
+.logo_container{
+    position: absolute;
+    top: 0;
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
+    object-position: 55%;
+    transform: scale(0.5) translate(0, 5%);
+    }
 .bar_icon{
     background-size: 10% 20%;
     max-block-size: 10%;
 }
+
+
+
+
+
+
