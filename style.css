@@ -22,11 +22,11 @@ body{
 
 /*Navigation*/
 nav{
-    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+    box-shadow: 12px 12px 12px var(--primary-color);
     position: sticky;
     top: 0;
     margin-bottom: 32px;
-    background: white;
+    background: var(--secondary-color);
     padding: 54px;
 }
 .navigation{
