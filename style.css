@@ -8,7 +8,7 @@
 
 :root{
     --primary-color: #b91c1c;
-    --secondar-color:#fecaca;
+    --secondary-color:#fecaca;
 }  
 html,
 body{
@@ -21,6 +21,23 @@ body{
 }
 
 /*Navigation*/
+nav{
+    box-shadow: 5px 5px 5px rgba(1,1,1,0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background: white;
+    padding: 54px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .logo_container{
     position: absolute;
@@ -31,10 +48,14 @@ body{
     object-position: 55%;
     transform: scale(0.5) translate(0, 5%);
     }
+
 .bar_icon{
-    background-size: 10% 20%;
-    max-block-size: 10%;
-}
+        font-size: 32px;
+        right: 0;
+        padding: 8%;
+        position: absolute;
+    }
+
 
 
 
