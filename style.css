@@ -33,11 +33,11 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+    }
 .container{
     max-width: 1200px;
     margin: 0 auto;
-}
+    }
 
 .logo_container{
     position: absolute;
@@ -56,6 +56,13 @@ nav{
         position: absolute;
     }
 
+    /* Hero section */
+.hero{
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 
