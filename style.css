@@ -78,6 +78,7 @@ nav{
     flex-direction: column;
     gap: 20px;
 }
+
 .tag{
     background-color: var(--secondary-color);
     padding: 5px 10px;
