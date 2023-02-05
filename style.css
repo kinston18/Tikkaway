@@ -149,14 +149,42 @@ nav{
 display: flex;
 flex-direction: column;
 gap: 50px;
-margin: 45px 0px ;
+margin: 40px 0px ;
 align-items: center;
 }
 .menu .explore_btn{
     align-self: center;
     padding: 8px ;
 }
+.grid{
+    display: grid;
+    gap: 10px;
+}
+.item1{
+grid-area: I1;
+}
 
+.item2{
+    grid-area: I2;
+        }
+
+
+.item3{
+    grid-area: I3;
+    }
+
+.item4{
+    grid-area: I4;
+    }
+
+.item5{
+    grid-area: I5;
+    }    
+
+
+.item6{
+    grid-area: I6;
+    }
 
 @media (max-width: 786px){
     .hero{
